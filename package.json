@@ -1,0 +1,38 @@
+{
+  "name": "react-sortable-responsive-table-nested-lists",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://heydon.github.io/react-sortable-table-demo",
+  "dependencies": {
+    "gh-pages": "^1.1.0",
+    "prettier": "^1.18.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "axe-webdriverjs": "^2.3.0"
+  },
+  "keywords": [],
+  "description": ""
+}
